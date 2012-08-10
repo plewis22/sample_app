@@ -44,7 +44,7 @@ describe "User pages" do
       end
 
       describe "after saving the user" do
-        it { should have_link('Sign out')}
+        it { should have_link('Sign out') }
       end
       
     end
